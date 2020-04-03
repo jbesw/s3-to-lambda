@@ -4,7 +4,7 @@ This application automatically transcribes uploaded MP3 audio files, and stores 
 
 Important: this application uses various AWS services and there are costs associated with these services after the Free Tier usage - please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in this example.
 
-To learn more about how this application works, see the article on the AWS Compute Blog: LINK TBD.
+To learn more about how this application works, see the article on the AWS Compute Blog: [Converting call center recordings into useful data for analytics](https://aws.amazon.com/blogs/compute/converting-call-center-recordings-into-useful-data-for-analytics/).
 
 ```bash
 .
