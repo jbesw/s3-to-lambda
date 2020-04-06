@@ -2,7 +2,7 @@
 
 This repo contains an AWS SAM template that deploys a serverless application. This application uses Amazon ML services like Comprehend and Rekognition to index documents and images, and then sends the results to Elasticsearch for fast indexing.
 
-This architecture is designed for large numbers of documents by using queuing. For full details on how this works, read the article at: TBD.
+This architecture is designed for large numbers of documents by using queuing. For full details on how this works, read the article at: https://aws.amazon.com/blogs/compute/creating-a-searchable-enterprise-document-repository/.
 
 Important: this application uses various AWS services and there are costs associated with these services after the Free Tier usage - please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in this example.
 
