@@ -56,6 +56,10 @@ Follow the prompts in the deploy process to set the stack name, AWS Region and o
 * Upload a text file (ending in the suffix '.txt') to the target S3 bucket.
 * After a few seconds you will see translation files appearing in the 'translations' folder in the same bucket (or in the Results bucket for v2).
 
+## Best practices for invoking Lambda functions from S3
+
+When writing objects back to the same bucket, it's important to use different prefixes or suffixes in Lambda notification triggers to avoid recursively invoking the same Lambda function. If your notification ends up writing to the bucket that triggers the notification, this could cause an execution loop. For example, if the bucket triggers a Lambda function each time an object is uploaded, and the function uploads an object to the bucket, then the function indirectly triggers itself. To avoid this, use two buckets, or configure the trigger to only apply to a prefix used for incoming objects. To learn more, read more about [configuring S3 notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html).
+
 ==============================================
 
 Copyright 2020 Amazon.com, Inc. or its affiliates. All Rights Reserved.
