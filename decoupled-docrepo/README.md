@@ -4,7 +4,7 @@ This repo contains AWS SAM templates that deploy serverless applications. This a
 
 The applicaton features are identical to the [Serverless Document Repository repo](https://github.com/jbesw/s3-to-lambda/tree/master/docrepository). This version of the application shows how to split a monolith into smaller applicatons using an event-based architecture, with Amazon EventBridge as the serverless event bus.
 
-For full details on how this works, read the article at: TBD.
+For full details on how this works, read the article at: https://aws.amazon.com/blogs/compute/decoupling-larger-applications-with-amazon-eventbridge/.
 
 Important: this application uses various AWS services and there are costs associated with these services after the Free Tier usage - please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in this example.
 
