@@ -6,6 +6,8 @@ Important: this application uses various AWS services and there are costs associ
 
 To learn more about how this application works, see the article on the AWS Compute Blog: https://aws.amazon.com/blogs/compute/creating-a-scalable-serverless-import-process-for-amazon-dynamodb/.
 
+See a video of how to use this repo at: https://youtu.be/f0sE_dNrimU.
+
 ```bash
 .
 ├── README.MD       <-- This instructions file
