@@ -4,11 +4,17 @@ The applications in this repo are supplementary training materials for the S3-to
 
 Important: these applications use various AWS services and there are costs associated with these services after the Free Tier usage. Please see the [AWS Pricing page](https://aws.amazon.com/pricing/) for details. You are responsible for any AWS costs incurred. No warranty is implied in these examples.
 
+## Video series
+
+Watch the videos accompanying this repo at this YouTube Playlist:
+https://www.youtube.com/playlist?list=PLJo-rJlep0EAY0nMNBv0MZ487l1tOFAjh
+
 ## Blog series
 
 - [Translating documents at enterprise scale with serverless](https://aws.amazon.com/blogs/compute/translating-documents-at-enterprise-scale-with-serverless/) - see the [translation](./translation) example.
 - [Creating a searchable enterprise document repository](https://aws.amazon.com/blogs/compute/creating-a-searchable-enterprise-document-repository/) - see the [docrepository](./docrepository) example.
 - [Converting call center recordings into useful data for analytics](https://aws.amazon.com/blogs/compute/converting-call-center-recordings-into-useful-data-for-analytics/) - see the [transcription](./transcription) example.
+- [Creating a scalable serverless import process for Amazon DynamoDB](https://aws.amazon.com/blogs/compute/creating-a-scalable-serverless-import-process-for-amazon-dynamodb/) - see the [ddbImporter](./ddbImporter) example.
 
 ## Videos
 
