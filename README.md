@@ -15,6 +15,7 @@ https://www.youtube.com/playlist?list=PLJo-rJlep0EAY0nMNBv0MZ487l1tOFAjh
 - [Creating a searchable enterprise document repository](https://aws.amazon.com/blogs/compute/creating-a-searchable-enterprise-document-repository/) - see the [docrepository](./docrepository) example.
 - [Converting call center recordings into useful data for analytics](https://aws.amazon.com/blogs/compute/converting-call-center-recordings-into-useful-data-for-analytics/) - see the [transcription](./transcription) example.
 - [Creating a scalable serverless import process for Amazon DynamoDB](https://aws.amazon.com/blogs/compute/creating-a-scalable-serverless-import-process-for-amazon-dynamodb/) - see the [ddbImporter](./ddbImporter) example.
+- [Building scalable serverless applications with Amazon S3 and AWS Lambda](https://aws.amazon.com/blogs/compute/building-scalable-serverless-applications-with-amazon-s3-and-aws-lambda/).
 
 ## Videos
 
